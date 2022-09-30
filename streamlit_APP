@@ -2,6 +2,10 @@
 import streamlit as st
 import pickle
 
+ [server]
+enableCORS = false
+enableXsrfProtection = false
+enableWebsocketCompression = false
 
 # load the model from disk
 model_filename = '/content/drive/MyDrive/Copia de rf.pkl'
@@ -56,7 +60,4 @@ HOTEL = st.selectbox("ID_HOTEL", options=['15', '30', '94'])
         #st.write(f":cry: El pasajero {name} **NO** hubiera sobrevivido con una probabilidad \
         #de {round(predict_probability[0][0] * 100, 3)}%")
         
- [server]
-enableCORS = false
-enableXsrfProtection = false
-enableWebsocketCompression = false
+
