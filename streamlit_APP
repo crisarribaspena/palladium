@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-
+def run ()
 # load the model from disk
 model_filename = '/content/drive/MyDrive/Copia de rf.pkl'
 loaded_model = pickle.load(open(model_filename, 'rb'))
