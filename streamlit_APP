@@ -62,5 +62,3 @@ HOTEL = st.selectbox("ID_HOTEL", options=['15', '30', '94'])
         #st.write(f":cry: El pasajero {name} **NO** hubiera sobrevivido con una probabilidad \
         #de {round(predict_probability[0][0] * 100, 3)}%")
         
-
-streamlit run app.py
