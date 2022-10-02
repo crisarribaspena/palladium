@@ -2,7 +2,7 @@ pip install streamlit
 import streamlit as st
 import pickle
 
- [server]
+#[server]
 enableCORS = false
 enableXsrfProtection = false
 enableWebsocketCompression = false
