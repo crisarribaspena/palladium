@@ -3,12 +3,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-headless = true
-
-#[server]
-enableCORS = false
-enableXsrfProtection = false
-enableWebsocketCompression = false
 
 # load the model from disk
 model_filename = '/content/drive/MyDrive/Copia de rf.pkl'
