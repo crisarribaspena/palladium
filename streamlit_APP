@@ -63,3 +63,4 @@ HOTEL = st.selectbox("ID_HOTEL", options=['15', '30', '94'])
         #de {round(predict_probability[0][0] * 100, 3)}%")
         
 
+streamlit run app.py
